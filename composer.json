@@ -1,0 +1,30 @@
+{
+    "name": "flashytime/alipay",
+    "description": "Easy AliPay Sdk",
+    "keywords": [
+        "alipay",
+        "easyalipay",
+        "alipay-php-sdk"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "flashytime",
+            "email": "myflashytime@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyAliPay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasyAliPay\\Tests\\": "tests/"
+        }
+    }
+}
